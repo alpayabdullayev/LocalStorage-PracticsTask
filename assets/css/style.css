@@ -1,11 +1,13 @@
 body {
     padding: 50px 500px;
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
 }
 
 .container {
     border: 1px solid black;
     padding: 10px;
     min-height: 300px;
+    background-color: white;
 }
 
 .todoItem {

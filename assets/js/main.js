@@ -51,6 +51,15 @@
 //     }     
 //     else 
 //     {
+
+//         if (memoElmenet) {
+//             let index = data.findIndex(todo => todo.todoItem === memoElmenet.textContent);
+//             if(index !== -1) {
+//                 data[index].todoItem = todoInp.value;
+//             }
+    
+//             localStorage.setItem('data', JSON.stringify(data)); 
+//         }
 //         memoElmenet.textContent = todoInp.value;
 //         todoInp.value = "";
 //         btn.textContent = "Add";
@@ -61,3 +70,16 @@
 
 
 // })
+
+
+
+
+
+
+
+
+
+
+
+
+
